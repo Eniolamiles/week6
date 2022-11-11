@@ -1,0 +1,37 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+
+.slidecontainer {
+  width: 100%;
+  height: 100vh;
+  background: black
+  
+
+}
+
+.swiper {
+  width:60%;
+  height:fit-content;
+}
+.swiper-slide img{
+  width: 100%;
+}
+.slidecontainer{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.slidecontainer .swiper-button-prev, .slidecontainer .swiper-button-next{
+  
+  color: white;
+   
+}
+.slidecontainer .swiper-pagination{
+  color: white;
+}
